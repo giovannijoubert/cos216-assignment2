@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Discover - CluedUP</title>
+      <meta name="author" content="Giovanni Joubert">
+      <meta name="description" content="the Latest in Hollywood Hits">
+      <link rel="stylesheet" href="css/main.css" type="text/css">
+      <link rel="stylesheet" href="css/discover.css" type="text/css">
+      <link rel="icon" href="img/favico.png" type="image/png">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       
+       <meta content="width=device-width, initial-scale=1" name="viewport" />
+                 <script src="js/cluedUP.js"></script>
+   </head>
+   <body onload="loadDiscoverPosters()">
+      <header>
+         <nav>
+            <span><img alt="CluedUP Logo" class="topLogo" src="img/mainlogo.svg"></span>
+            <ul class="topNav">
+               <li><a  href="index.html"><i class="fa fa-home"></i>Home</a></li>
+               <li><a class="activeNav" href="discover.html"><i class="fa fa-search"></i>Discover</a></li>
+               <li><a href="featured.html"><i class="fa fa-star" ></i>Featured</a></li>
+               <li><a href="top-rated.html"><i class="far fa-thumbs-up" ></i>Top Rated</a></li>
+               <li><a href="latest.html"><i class="fas fa-bullhorn" ></i>Latest</a></li>
+               <li><a href="construction.html"><i class="fa fa-calendar-alt" ></i>Calendar</a></li>
+            </ul>
+         </nav>
+         <div class="welcome-msg">
+            <h1>Discover</h1>
+            <h3>the Latest in Hollywood Hits</h3>
+         </div>
+            <svg class="custom-header-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,100 100,0 100,100"/>
+         </svg>
+      </header>
+      <div class="body-elements">
+         <div class="filter-container">
+            <input type="text" class="search-bar" id="search-bar" placeholder="  Looking for a particular movie?">
+            <a href="#"><i class="fa fa-search search-icon"></i></a>
+            <span class="filter-rating">
+            <label> Filter by rating:</label>     
+            <span>☆</span>
+            <span>☆</span>
+            <span>☆</span>
+            <span>☆</span>
+            <span>☆</span>
+            </span>
+            <span class="filter-genre">
+               <select>
+                  <option selected disabled>Genre</option>
+                  <option value="action">Action</option>
+                  <option value="comedy">Comedy</option>
+                  <option value="drama">Drama</option>
+                  <option value="horror">Horror</option>
+                  <option value="romance">Romance</option>
+                  <option value="sci-fi">Science Fiction</option>
+               </select>
+            </span>
+         </div>
+      </div>
+      <div class="posters-holder">
+         <div class="single-poster-holder">
+            <img alt="Bohemian Rhapsody" src="img/posters/poster1.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Bohemian Rhapsody</h1>
+               <h2>(2 November 2018)</h2>
+               <span class="imdb_rating">★ 8.2</span><span class="CluedUP_rating"> | 89%</span>
+               <p>The story of the legendary rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).</p>
+               <div class="single-poster-age-rating">PG-13</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Polar" src="img/posters/poster2.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Polar</h1>
+               <h2>(25 January 2019)</h2>
+               <span class="imdb_rating">★ 6.3</span><span class="CluedUP_rating"> | 60%</span>
+               <p>The world's top assassin, Duncan Vizla, is settling into retirement when his former employer marks him as a liability to the firm. </p>
+               <div class="single-poster-age-rating">TV-MA</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Green Book" src="img/posters/poster3.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Green Book</h1>
+               <h2>(16 November 2018)</h2>
+               <span class="imdb_rating">★ 8.3</span><span class="CluedUP_rating"> | 73%</span>
+               <p>A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.</p>
+               <div class="single-poster-age-rating">PG-13</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Avengers: Infinity War" src="img/posters/poster4.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Avengers: Infinity War</h1>
+               <h2>(27 April 2018)</h2>
+               <span class="imdb_rating">★ 8.5</span><span class="CluedUP_rating"> | 82%</span>
+               <p>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>
+               <div class="single-poster-age-rating">PG-13</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Mary Poppins Returns" src="img/posters/poster5.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Mary Poppins Returns</h1>
+               <h2>(19 December 2018)</h2>
+               <span class="imdb_rating">★ 7.2</span><span class="CluedUP_rating"> | 76%</span>
+               <p>Decades after her original visit, the magical nanny returns to help the Banks siblings and Michael's children through a difficult time in their lives.</p>
+               <div class="single-poster-age-rating">PG</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Serenity" src="img/posters/poster6.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Serenity</h1>
+               <h2>(25 January 2019)</h2>
+               <span class="imdb_rating">★ 5.1</span><span class="CluedUP_rating"> | 49%</span>
+               <p>A fishing boat captain juggles facing his mysterious past and finding himself ensnared in a reality where nothing is what it seems.</p>
+               <div class="single-poster-age-rating">R</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Spider-Man: Into the Spider-Verse" src="img/posters/poster7.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Spider-Man: Into the Spider-Verse</h1>
+               <h2>(14 December 2018)</h2>
+               <span class="imdb_rating">★ 8.7</span><span class="CluedUP_rating"> | 93%</span>
+               <p>Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.</p>
+               <div class="single-poster-age-rating">PG</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="Robin Hood" src="img/posters/poster8.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>Robin Hood</h1>
+               <h2>(21 November 2018)</h2>
+               <span class="imdb_rating">★ 5.3</span><span class="CluedUP_rating"> | 39%</span>
+               <p>A war-hardened Crusader and his Moorish commander mount an audacious revolt against the corrupt English crown in a thrilling action-adventure packed with gritty battlefield exploits.</p>
+               <div class="single-poster-age-rating">PG-13</div>
+            </div>
+         </div>
+         <div class="single-poster-holder">
+            <img alt="A Star Is Born" src="img/posters/poster9.jpg" class="single-poster-layer_bottom">
+            <div class="single-poster-layer_top">
+               <h1>A Star Is Born</h1>
+               <h2>(5 October 2018)</h2>
+               <span class="imdb_rating">★ 7.9</span><span class="CluedUP_rating"> | 79%</span>
+               <p>A musician helps a young singer find fame, even as age and alcoholism send his own career into a downward spiral.</p>
+               <div class="single-poster-age-rating">R</div>
+            </div>
+         </div>
+      </div>
+      <!--body elements-->
+      <footer>
+         <p>COS216 Practical 1 - u18009035</p>
+      </footer>
+   </body>
+</html>
